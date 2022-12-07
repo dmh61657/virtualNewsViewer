@@ -1,0 +1,124 @@
+<!-- Damian M Hayes -->
+<!-- Made for  -->
+
+<!-- Check bottom of page for a changelog and miscelanious notes for both the HTML and CSS files -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="keywords" content="HTML5, VNV" >
+		<meta name="description" content="Virtual News Viewer home page" >
+		<meta charset="UTF-8" >
+		<title>Virtual News Viewer</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+
+
+	<body>
+		<header>
+			<div id="headerTop">
+				<div><a href="index.html"><img src="images/logo.png" width="400" alt="Virtual News Viewer logo"></a>
+
+				<!-- I might try and find a way to make the icon change color when the button is hovered over.  -->
+				
+					<ul id="settings">
+						<li><strong><a href="#"><img src="images/iconflag.png" width="40" alt="Language button icon">Language</a></strong></li>
+						<li><strong><a href="#"><img src="images/icongear.png" width="40" alt="Settings button icon">Settings</a></strong></li>
+						<li><strong><a href="contact.html"><img src="images/iconletter.png" width="40" alt="Contact button icon">Contact Us</a></strong></li>
+					</ul>
+					<!-- This feels like a very hacked together solution but it works. -->
+					<div class="clear"></div>
+				</div>
+			</div>
+			<nav id="navBar">
+				<ul id="navigation">
+					<li><a href="index.html"><strong>Articles</strong></a></li>
+					<li><a href="#"><strong>Game Reviews</strong></a></li>
+					<li><a href="guide.html"><strong>Guides and Help</strong></a></li>
+					<li><a href="about.html"><strong>About</strong></a></li>
+				</ul>
+				<div class="clear"></div>
+			</nav>
+		</header>
+
+
+<!-- This is the main area where articles are displayed. -->
+		<main class="index">
+
+			<h2 id="newTitle"><strong>Latest News</strong></h2>
+			<!-- start of example article-->
+			
+			<div class="newArticle">
+				<a href="article.html">
+					<article>
+						<p class="title">Example Article Title</p>
+						<img src="images/article.png" width="200" alt="example article preview image">
+						
+							<p class="secondaryText">Example secondary text</p>
+							<p class="author">Example Author</p>
+							<p class="date">Example Date</p>
+						
+						<div class="clear"></div>
+					</article>
+				</a>
+			
+			<!-- end of example article-->
+			
+				<a href="#">
+					<article>
+						<p class="title">VR: The next frontier?</p>
+						<img src="images/article.png" width="200" alt="example article preview image">
+						
+							<p class="secondaryText">Will Virtual Reality expand our minds?</p>
+							<p class="author">Damian M Hayes</p>
+							<p class="date">11/4/2022</p>
+						
+						<div class="clear"></div>
+					</article>
+				</a>
+			</div>
+			
+			<h2 id="recTitle"><strong>Recommended Articles</strong></h2>
+			
+			<div class="recommendedArticle">
+				<a href="#">
+					<article>
+						<p class="title">Example Article Title</p>
+						<img src="images/article.png" width="200" alt="example article preview image">
+						
+							<p class="secondaryText">Example secondary text</p>
+							<p class="author">Example Author</p>
+							<p class="date">Example Date</p>
+						
+						<div class="clear"></div>
+					</article>
+				</a>
+			</div>
+			
+		</main>
+		
+<!-- The footer -->
+<!-- This will have a different class on each page to define how low down it is. -->
+		<div>
+			<footer class="index">
+				<p><a href="#">[LEGAL INFORMATION GOES HERE]</a></p>
+				<P><a href="#">[SOCIAL MEDIA INFORMATION GOES HERE]</a></P>
+				<p><a href="contact.html">[Contact us at this link!]</a></p>
+			</footer>
+		</div>
+		
+	</body>
+</html>
+
+
+<!-- 
+changelog
+ - Overhauled the structure of articles.
+ - Added classes to elements that have unique propterties that are otherwise shared on different pages.
+ - Added a new background. Most likely temporary.
+ - Added icons to the links in the upper right corner.
+ - Added borders to various elements.
+ - Added blank links to the articles. Clicking any part of an article will work.
+ - Updated contact links to lead to the contact page.
+ - Various miscelanious positioning changes to various elements.
+-->

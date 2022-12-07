@@ -1,0 +1,324 @@
+/* Damian M Hayes */
+
+/* Check the HTML file for changelog */
+
+body{
+	background-color: lightgrey;
+	background-image: url("../images/image2.png");
+	background-size: contain;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+	background-color: rgb(80,80,80);
+	width: 100%;
+	height: 180px;
+}
+
+/* the logo */
+header div a img{
+	float: left;
+}
+
+/* the settings in the upper right corner */
+header div ul{
+	background-color: rgb(170,170,170);
+	width: 760px;
+	position: absolute;
+	right: 5%;
+	padding: 5px;
+	
+	border-style: solid;
+}
+
+header div ul li{
+	font-size: 2.0em;
+	list-style-type: none;
+	list-style-position: outside;
+	float: left;
+	position: relative;
+	left: 40px;
+}
+
+header div ul li a{
+	color: green;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	
+}
+
+header div ul li a:hover{
+	color: rgb(60,182,222);
+}
+
+/* the navigation buttons at the bottom of the header */
+header nav{
+	background-color: rgb(60,182,222);
+	height: 50px;
+	border-bottom-style: solid;
+}
+
+header nav ul li{
+	font-size: 2em;
+	list-style-type: none;
+	list-style-position: outside;
+	float: left;
+	margin: 5px;
+}
+
+header nav ul li a{
+	color: black;
+	text-decoration: none;
+	margin: 10px;
+	padding: 5px;
+}
+
+header nav ul li a:hover{
+	color: white;
+}
+
+/* This way of clearing a float feels kind of hacked together so i'll have to do some more research. Atleast it works for now. */
+
+.clear{
+	clear: both;
+}
+
+/* [ INDEX ] */
+
+/* This is where all of the content is shown */
+
+main.index{
+	background-color: rgb(120,120,120);
+	border-style: solid;
+	width: 80%;
+	height: 1200px;
+	position: relative;
+	left: 10%;
+	top: 50px;
+}
+
+/* This defines the layout of the new articles*/
+
+#newTitle{
+	position:relative;
+	top:10px;
+	left:8%;
+}
+
+div.newArticle a article{
+	background-color: rgb(170,170,170);
+	border-style: solid;
+	width: 40%;
+	position:relative;
+	left: 5%;
+	margin-top: 10px;
+	color: black;
+}
+
+article p{
+	
+}
+
+p.title{
+	font-size: 2.0em;
+	position: absolute;
+	left: 250px;
+	font-weight:bold;
+}
+
+p.secondaryText{
+	font-size: 1.5em;
+	position: absolute;
+	top: 50px;
+	left: 230px;
+}
+
+p.author{
+	position: absolute;
+	left:210px;
+	bottom:5px;
+}
+
+p.date{
+	position: absolute;
+	right:20px;
+	bottom:5px;
+}
+
+
+
+/* This defines the layout of the recommended articles*/
+
+#recTitle{
+	position:absolute;
+	top:10px;
+	right:25%;
+}
+
+div.recommendedArticle article{
+	background-color: rgb(170,170,170);
+	border-style: solid;
+	width: 40%;
+	position:absolute;
+	right: 5%;
+	top: 70px;
+	color: black;
+}
+
+div.recommendedArticle article ul{
+	position:absolute;
+	left:200px;
+	top:90px;
+	font-size: 1.5em;
+}
+
+
+/* [ CONTACT ] */
+
+main.contact{
+	background-color: rgb(120,120,120);
+	border-style: solid;
+	width: 60%;
+	height: 500px;
+	position: relative;
+	left: 20%;
+	top: 50px;
+	font-size: 1.2em;
+}
+
+main.contact form{
+	position:relative;
+	left: 10px;
+}
+
+
+/* [ ARTICLE ] */
+
+main.article{
+	background-color: rgb(120,120,120);
+	border-style: solid;
+	width: 80%;
+	height: 1200px;
+	position: relative;
+	left: 10%;
+	top: 50px;
+	font-size: 1.5em;
+}
+
+main.article img{
+	width: 40%;
+	position: relative;
+	left: 5%;
+}
+
+main.article p{
+	width: 60%;
+	position: relative;
+	left: 10%;
+}
+
+main.article h1{
+	position:relative;
+	top:10px;
+	left:8%;
+}
+
+main.article h2{
+	position:relative;
+	top:10px;
+	left:8%;
+}
+
+
+/* [ ABOUT ] */
+
+main.about{
+	background-color: rgb(120,120,120);
+	border-style: solid;
+	width: 80%;
+	height: 1200px;
+	position: relative;
+	left: 10%;
+	top: 50px;
+	font-size: 1.5em;
+}
+
+main.about h1{
+	position:relative;
+	top:10px;
+	left:8%;
+}
+
+main.about p{
+	width: 60%;
+	position: relative;
+	left: 10%;
+}
+
+
+/* [ GUIDE ] */
+
+main.guide{
+	background-color: rgb(120,120,120);
+	border-style: solid;
+	width: 80%;
+	height: 1200px;
+	position: relative;
+	left: 10%;
+	top: 50px;
+	font-size: 1.5em;
+}
+
+main.guide h2{
+	position:relative;
+	top:10px;
+	left:8%;
+}
+
+
+/* [ WIP ] */
+
+main.about{
+	background-color: rgb(120,120,120);
+	border-style: solid;
+	width: 80%;
+	height: 1200px;
+	position: relative;
+	left: 10%;
+	top: 50px;
+	font-size: 1.5em;
+}
+
+main.about h1{
+	position:relative;
+	top:10px;
+	left:8%;
+}
+
+main.about h2{
+	position:relative;
+	top:10px;
+	left:8%;
+}
+
+
+/* This is the footer */
+
+footer{
+	background-color: rgb(100,100,100);
+	position:relative;
+	padding:10px;
+}
+
+footer.index{
+	top: 150px;
+}
+
+footer.contact{
+	top: 150px;
+}
