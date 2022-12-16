@@ -120,9 +120,7 @@ div.newArticle a article{
 	color: black;
 }
 
-article p{
-	
-}
+
 
 p.title{
 	font-size: 2.0em;
@@ -271,13 +269,57 @@ main.guide{
 	position: relative;
 	left: 10%;
 	top: 50px;
-	font-size: 1.5em;
 }
 
-main.guide h2{
+div.guideArticle article{
+	width: 70%;
+	position:relative;
+	left: 5%;
+	margin-top: 10px;
+	color: black;
+}
+
+div.guideArticle{
+	background-color: rgb(170,170,170);
+	border-style: solid;
+	width: 70%;
+	position:relative;
+	left: 5%;
+	margin-top: 10px;
+	color: black;
+}
+
+h2.guideSectionTitle{
 	position:relative;
 	top:10px;
 	left:8%;
+}
+
+p.titleGuide{
+	font-size: 2.0em;
+	position: absolute;
+	left: 250px;
+	width:80%;
+	font-weight:bold;
+}
+
+p.secondaryTextGuide{
+	font-size: 1.5em;
+	position: absolute;
+	top: 50px;
+	left: 230px;
+}
+
+p.authorGuide{
+	position: absolute;
+	left:210px;
+	bottom:5px;
+}
+
+p.dateGuide{
+	position: absolute;
+	right:20px;
+	bottom:5px;
 }
 
 

@@ -1,13 +1,13 @@
 <!-- Damian M Hayes -->
 <!-- Made for  -->
 
-<!-- Check bottom of index.html for changelog -->
+<!-- Check bottom of page for a changelog and miscelanious notes for both the HTML and CSS files -->
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta name="keywords" content="HTML5, VNV" >
-		<meta name="description" content="Virtual News Viewer example article" >
+		<meta name="description" content="Virtual News Viewer home page" >
 		<meta charset="UTF-8" >
 		<title>Virtual News Viewer</title>
 		<link rel="stylesheet" href="css/main.css">
@@ -15,11 +15,12 @@
 
 
 	<body>
+<!-- The header will be the same on every page.-->
 		<header>
 			<div id="headerTop">
 				<div><a href="index.html"><img src="images/logo.png" width="400" alt="Virtual News Viewer logo"></a>
 
-				<!-- See about adding icon images inside of the list that are part of the link.  -->
+				<!-- I might try and find a way to make the icon change color when the button is hovered over.  -->
 				
 					<ul id="settings">
 						<li><strong><a href="#"><img src="images/iconflag.png" width="40" alt="Language button icon">Language</a></strong></li>
@@ -42,16 +43,48 @@
 		</header>
 
 
-<!-- This is the main area where articles are displayed. -->
+<!-- This is the main area where Guides are displayed. -->
 		<main class="guide">
-			<h2><strong>Guides and Help</strong></h2>
+
+			<h2 class="guideSectionTitle"><strong>Guides and Help</strong></h2>
+			<!-- start of example article-->
+			
+			<div class="guideArticle">
+				<a href="#">
+					<article>
+						<p class="titleGuide">Example Guide Title</p>
+						<img src="images/guide.png" width="200" alt="example guide preview image">
+						
+						<p class="secondaryTextGuide">Example secondary text</p>
+						<p class="authorGuide">Example Author</p>
+						<p class="dateGuide">Example Date</p>
+						
+					</article>
+				</a>
+			</div>
+			
+			<!-- end of example article-->
+			<div class="guideArticle">
+				<a href="#">
+					<article>
+						<p class="titleGuide">VR Setup and You: Getting Started</p>
+						<img src="images/guide.png" width="200" alt="example guide preview image">
+						
+						<p class="secondaryTextGuide">Step-by-step and common issues</p>
+						<p class="authorGuide">Damian M Hayes</p>
+						<p class="dateGuide">11/4/2022</p>
+						
+					</article>
+				</a>
+			</div>
+			
 			
 		</main>
 		
 <!-- The footer -->
-		
+<!--  -->
 		<div>
-			<footer class="contact">
+			<footer class="index">
 				<p><a href="#">[LEGAL INFORMATION GOES HERE]</a></p>
 				<P><a href="#">[SOCIAL MEDIA INFORMATION GOES HERE]</a></P>
 				<p><a href="contact.html">[Contact us at this link!]</a></p>
@@ -62,4 +95,14 @@
 </html>
 
 
-<!-- Check bottom of index.html for changelog -->
+<!-- 
+changelog
+ - Overhauled the structure of articles.
+ - Added classes to elements that have unique propterties that are otherwise shared on different pages.
+ - Added a new background. Most likely temporary.
+ - Added icons to the links in the upper right corner.
+ - Added borders to various elements.
+ - Added blank links to the articles. Clicking any part of an article will work.
+ - Updated contact links to lead to the contact page.
+ - Various miscelanious positioning changes to various elements.
+-->
